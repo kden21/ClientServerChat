@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1612478333_154-p-risunki-na-serom-fone-200.jpg" />
+    <None Remove="1625211531_7-phonoteka-org-p-prikolnie-oboi-s-tekstom-oboi-krasivo-8.jpg" />
+    <None Remove="711.jpg" />
+    <None Remove="807277.jpg" />
+    <None Remove="Awkward-Seal.jpg" />
+    <None Remove="background.jpg" />
+    <None Remove="e5524e94051637.5e74b6fb63fc4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\background.jpg" />
+  </ItemGroup>
+
+</Project>
