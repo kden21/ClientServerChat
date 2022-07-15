@@ -4,12 +4,10 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text.Json;
 
-
 namespace ChatServer
 {
     class Program
     {
-        
         static int port = 8005;
         Test5DBContext context = new Test5DBContext();
         static void Main(string[] args)

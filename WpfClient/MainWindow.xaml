@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfClient"
         mc:Ignorable="d"
-        Title="Лучший чат" Height="450" Width="815">
+        Title="Чат" Height="450" Width="815">
     <Grid>
         <Button x:Name="bConDoscon" Click="Button_Click" Content="Подключиться" HorizontalAlignment="Left" Height="34" Margin="708,10,0,0" VerticalAlignment="Top" Width="80" BorderBrush="#FF707070" Foreground="#FF030303" FontSize="16" FontFamily="Gabriola" Background="#FF6D9AAF"/>
         <Button x:Name="btSend" Content="Отправить" Click="Button_Click_1" IsDefault="True" HorizontalAlignment="Left" Height="65" Margin="678,337,0,0" VerticalAlignment="Top" Width="110" Background="#FF6D9DAF" FontSize="26" FontFamily="Gabriola"/>
@@ -16,7 +16,6 @@
         <TextBox x:Name="tbPort" ToolTip="Port" HorizontalAlignment="Left" Height="20" Margin="291,24,0,0" TextWrapping="Wrap" Text="8005"  VerticalAlignment="Top" Width="150" Background="#FFBEECF0" FontFamily="Arial Black" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Height="17" Margin="452,5,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" FontFamily="Gabriola" FontSize="16" Width="150"/>
         <TextBox x:Name="tbAddress" ToolTip="Address" HorizontalAlignment="Left" Height="20" Margin="450,24,0,0" TextWrapping="Wrap" Text="127.0.0.1"  VerticalAlignment="Top" Width="250" Background="#FFBEECF0" FontFamily="Arial Black" FontSize="14"/>
-
         <ListBox x:Name="lbChat" HorizontalAlignment="Left" Height="273" Margin="8,49,0,0" VerticalAlignment="Top" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" Foreground="White">
             <ListBox.Background>
                 <ImageBrush ImageSource="/Assets/background.jpg" Stretch="UniformToFill" TileMode="None">
